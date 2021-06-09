@@ -6,12 +6,9 @@ name: Jekyll site CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: 
-    - master
-    - gh-pages-3.1.6
+    branches: [ master ]
   pull_request:
-    - master
-    - gh-pages-3.1.6
+    branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
